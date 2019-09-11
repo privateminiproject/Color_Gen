@@ -84,8 +84,8 @@ public class MainActivity extends AppCompatActivity {
                 Picasso.get().load("https://source.unsplash.com/random".toString()) .memoryPolicy(MemoryPolicy.NO_CACHE, MemoryPolicy.NO_STORE)
                         .networkPolicy(NetworkPolicy.NO_CACHE, NetworkPolicy.NO_STORE).into(imageView,
                         PicassoPalette.with("https://source.unsplash.com/random".toString(), imageView)
-                                .use(PicassoPalette.Profile.MUTED_DARK)
-                                .intoBackground(backgroundGroup, PicassoPalette.Swatch.RGB)
+//                                .use(PicassoPalette.Profile.MUTED_DARK)
+//                                .intoBackground(backgroundGroup, PicassoPalette.Swatch.RGB)
                                 .use(PicassoPalette.Profile.MUTED_DARK)
                                 .intoBackground(backgroundGroup, PicassoPalette.Swatch.RGB)
                                 .intoTextColor(bodyColorText, PicassoPalette.Swatch.BODY_TEXT_COLOR)
