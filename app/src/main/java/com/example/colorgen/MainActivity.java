@@ -90,7 +90,6 @@ public class MainActivity extends AppCompatActivity {
                                 .intoBackground(backgroundGroup, PicassoPalette.Swatch.RGB)
                                 .intoTextColor(bodyColorText, PicassoPalette.Swatch.BODY_TEXT_COLOR)
                                 .intoTextColor(titleColorText, PicassoPalette.Swatch.TITLE_TEXT_COLOR)
-
                 );
             }
         });
